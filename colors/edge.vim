@@ -537,7 +537,7 @@ if has('nvim-0.8.0')
   highlight! link @type.qualifier TSTypeQualifier
   highlight! link @uri TSURI
   highlight! link @variable TSVariable
-  highlight! link @variable.builtin TSVariableBuiltin
+  highlight! link @variable.builtin TSKeyword
 endif
 " }}}
 " neoclide/coc.nvim {{{
